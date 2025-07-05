@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"mensagem": "API está no ar"}
+    return {"mensagem": "API está no ar funcionando bacana"}
 
 @app.get("/alo")
 async def alo():
